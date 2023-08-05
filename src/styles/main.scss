@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 @use "cabecalho";
 @use "bolo";
 @use "bebidas";
 @use "dance";
 @use "festa";
+=======
+@use "hero";
+@use "./components/infos_bar";
+@use "./components/buttons";
+>>>>>>> 56c62fd275c0106b912e61a798bba409ae86e093
 
 * {
     margin: 0;
@@ -10,6 +16,7 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     color: white;
+    list-style: none;
 }
 
 .container {
